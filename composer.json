@@ -12,7 +12,6 @@
     }
   ],
   "replace": {
-    "static_info_tables_re_add_iso": "self.version",
     "typo3-ter/static-info-tables-re-add-iso": "self.version"
   },
   "require": {
