@@ -1,0 +1,22 @@
+{
+  "name": "renolit/static-info-tables-re-add-iso",
+  "description": "Re-add the static_lang_isocode field in sys_language.",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Ephraim Härer",
+      "role": "Developer",
+      "email": "ephraim.haerer@renolit.com",
+      "homepage": "https://www.renolit.com"
+    }
+  ],
+  "replace": {
+    "static_info_tables_re_add_iso": "self.version",
+    "typo3-ter/static-info-tables-re-add-iso": "self.version"
+  },
+  "require": {
+    "php": ">=7.2",
+    "typo3/cms-core": "^10.4"
+  }
+}
