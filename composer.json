@@ -16,6 +16,11 @@
   },
   "require": {
     "php": ">=7.2",
-    "typo3/cms-core": "^10.4"
+    "typo3/cms-core": "^10.4.14"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "static_info_tables_re_add_iso"
+    }
   }
 }
