@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Re-add needed fields for static info tables',
     'description' => 'Re-add the static_lang_isocode field in sys_language.',
     'category' => 'misc',
-    'version' => '1.0.2',
+    'version' => '1.0.3',
     'state' => 'stable',
     'uploadfolder' => false,
     'createDirs' => '',
@@ -22,7 +22,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'RENOLIT SE',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.14-10.4.99',
+            'typo3' => '10.4.14-11.5.99',
             'php' => '7.2.0-0.0.0',
         ],
         'conflicts' => [],
